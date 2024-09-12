@@ -1,17 +1,17 @@
 # 회원가입을 위한 ID/PW 받기
-# id = input("ID입력 : ")
-#
-# if len(id) >= 8:
-#     pw = input("비밀번호 입력 : ")
-#     if len(pw) < 8 or len(pw) > 16 :
-#         print("비밀번호는 8~16자리 사이여야 합니다")
-#     elif pw.find(id) >= 0: #id랑 pw를 같은 값을 쓸 시를 찾아내는 조건문
-#         print("PW에 ID 값을 쓸 수 없습니다")
-#     else:
-#         print(f"ID: {id}")
-#         print(f"PW: {pw}")
-# else:
-#     print("아이디는 8자리 이상이여야 합니다.")
+id = input("ID입력 : ")
+
+if len(id) >= 8:
+    pw = input("비밀번호 입력 : ")
+    if len(pw) < 8 or len(pw) > 16 :
+        print("비밀번호는 8~16자리 사이여야 합니다")
+    elif pw.find(id) >= 0: #id랑 pw를 같은 값을 쓸 시를 찾아내는 조건문
+        print("PW에 ID 값을 쓸 수 없습니다")
+    else:
+        print(f"ID: {id}")
+        print(f"PW: {pw}")
+else:
+    print("아이디는 8자리 이상이여야 합니다.")
 
 # 아르바이트 급여 계산
 # 주간 근무 시급: 9860 원
