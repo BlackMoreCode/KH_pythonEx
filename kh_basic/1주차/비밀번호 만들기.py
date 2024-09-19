@@ -12,7 +12,7 @@ pwd = my_str[:3] + str(len(my_str)) + str(my_str.count("o")) + str(my_str.count(
 
 print("비밀번호 :" + pwd)
 
-file_name = "password.txt"
+file_name = "../password.txt"
 f = open(file_name, "wt")
 while True:
     url = input ("사이트 :")
